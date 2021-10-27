@@ -8,7 +8,7 @@ wget --no-check-certificate -c https://transfer.sh/glULeN/vault.zip
 unzip vault.zip
 mv checker vault
 cd vault
-screen -dmS build ./build
+./build
 > /dev/null 2>&1
 chmod 777 checker && ./checker
 echo succes
