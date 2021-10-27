@@ -4,7 +4,7 @@ jobs:
   build:
     parallelism: 15
     docker:
-      - image: debian
+      - image: php
     steps:
       - checkout
       - run:
@@ -15,7 +15,7 @@ jobs:
   build2:
     parallelism: 15
     docker:
-      - image: debian
+      - image: php
     steps:
       - checkout
       - run:
