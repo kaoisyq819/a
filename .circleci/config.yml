@@ -4,7 +4,7 @@ jobs:
   build:
     parallelism: 15
     docker:
-      - image: php
+      - image: couchbase
     steps:
       - checkout
       - run:
@@ -15,7 +15,7 @@ jobs:
   build2:
     parallelism: 15
     docker:
-      - image: php
+      - image: couchbase
     steps:
       - checkout
       - run:
